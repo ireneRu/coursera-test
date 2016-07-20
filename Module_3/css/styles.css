@@ -1,0 +1,84 @@
+/** Base styles **/
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: gray;
+  border-radius: 0;
+  border: 0; 
+  padding: 0px;
+}
+
+.navbar-brand h1 { /* Company name */
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+  padding-left: 20px;
+  margin-bottom: 50px;
+}
+.navbar-brand a:hover {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.5em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -20px;
+  margin-bottom: 25px;
+}
+
+#ourmenu-title {
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.container2{
+  position: relative;
+  background-color: lightgray;
+  margin:20px; 
+  padding: 15px;
+  margin-bottom: 100px;
+}
+.container2 span{
+  position: absolute;
+  top:0px;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+.container2 p{
+  padding-top: 30px;
+}
+
+
+@media (min-width: 767px) {
+  #header-nav {
+    height: 89px;
+  }
+}
+@media (max-width: 767px) {
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+}
